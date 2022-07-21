@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="css/pokedex.css">
+
+    <script src="js/pokedex.js" defer></script>
+</head>
+<body>
+    <h1>Pokedex</h1>
+    <main>
+        <article class="flex pokedex">
+            <figure>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif"
+                    alt="Pokemon" class="pokemon_image">
+            </figure>
+            <header>
+                <h2>
+                    <span class="pokemon_number">132</span>
+                    <span class="pokemon_name">Ditto</span>
+                </h2>
+            </header>
+
+        </article>
+        <form class="form">
+            <input type="search" name="search" id="search" class="search" autofocus>
+        </form>
+        <div class="flex">
+            <button class="btn btn-prev">prev &lt;</button>
+            <button class="btn btn-next">prev &gt;</button>
+        </div>
+    </main>
+</body>
+</html>
